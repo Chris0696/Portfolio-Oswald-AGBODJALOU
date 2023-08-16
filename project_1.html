@@ -1,11 +1,3 @@
-# coding:utf-8
-import cgi
-
-print("content-type: text/html; charset=utf-8\n")
-
-
-html = """
-
 <!doctype html>
 <html lang="fr">
 
@@ -78,7 +70,7 @@ html = """
               </div>
               <!-- avatar end -->
               <!-- name -->
-              <h5 class="art-name mb-10"><a href="/index.py">Oswald AGBODJALOU</a></h5>
+              <h5 class="art-name mb-10"><a href="/index.html">Oswald AGBODJALOU</a></h5>
               <!-- post -->
               <div class="art-sm-text">Développeur Fullstack <br>Python/Wordpress</div>
             </div>
@@ -868,7 +860,7 @@ html = """
                           <!-- suptitle -->
                           <div class="art-lg-text art-code mb-25">Donnez-moi l'occasion de vous prouver mes compétences !</div>
                           <!-- button -->
-                          <a href="/contact.py" class="art-btn art-btn-md"><span>Me contacter</span></a>
+                          <a href="/contact.html" class="art-btn art-btn-md"><span>Me contacter</span></a>
                         </div>
                         <!-- main title end -->
                       </div>
@@ -881,10 +873,10 @@ html = """
                       <!-- button -->
                       <a href="#" class="art-link art-color-link art-w-chevron art-left-link"><span>Projet précédent</span></a>
                       <div class="art-pagination-center art-m-hidden">
-                        <a class="art-link" href="/all_projects.py">Tous les projets</a>
+                        <a class="art-link" href="/all_projects.html">Tous les projets</a>
                       </div>
                       <!-- button -->
-                      <a href="/project_2.py" class="art-link art-color-link art-w-chevron"><span>Projet suivant</span></a>
+                      <a href="/project_2.html" class="art-link art-color-link art-w-chevron"><span>Projet suivant</span></a>
                     </div>
                     <!-- projects navigation end -->
 
@@ -944,7 +936,7 @@ html = """
                 <footer>
                   <!-- copyright -->
                   <div>© 2023 VALDO TECHNOLOGY</div>
-                  <div>AUTEUR :&#160; <a href="index.py" target="_blank">Oswald J~Chris</a></div>
+                  <div>AUTEUR :&#160; <a href="index.html" target="_blank">Oswald J~Chris</a></div>
                 </footer>
                 <!-- footer end -->
 
@@ -990,32 +982,32 @@ html = """
                 <!-- menu list -->
                 <ul class="main-menu">
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/index.py">Accueil</a></li>
+                  <li class="menu-item"><a href="/index.html">Accueil</a></li>
                   <!-- menu item -->
                   <li class="menu-item menu-item-has-children current-menu-item">
                     <a href="#.">Portfolio</a>
                     <!-- sub menu -->
                     <ul class="sub-menu">
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/project_2.py">Projet 2</a></li>
+                      <li class="menu-item"><a href="/project_2.html">Projet 2</a></li>
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/all_projects.py">Les projets réalisés</a></li>
+                      <li class="menu-item"><a href="/all_projects.html">Les projets réalisés</a></li>
                     </ul>
                     <!-- sub menu end -->
                   </li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/history.py">Mon parcours professionnel</a></li>
+                  <li class="menu-item"><a href="/history.html">Mon parcours professionnel</a></li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/contact.py">Contact</a></li>
+                  <li class="menu-item"><a href="/contact.html">Contact</a></li>
                   <!-- menu item -->
                   <li class="menu-item menu-item-has-children">
                     <a href="#.">Blog</a>
                     <!-- sub menu -->
                     <ul class="sub-menu">
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/blog_1.py">Nouvelle annonce</a></li>
+                      <li class="menu-item"><a href="/blog_1.html">Nouvelle annonce</a></li>
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/all_blog.py">Les annonces</a></li>
+                      <li class="menu-item"><a href="/all_blog.html">Les annonces</a></li>
                     </ul>
                     <!-- sub menu end -->
                   </li>
@@ -1029,9 +1021,9 @@ html = """
               <!-- language change -->
               <ul class="art-language-change">
                 <!-- language item -->
-                <li><a href="javascript:void()" onclick="window.location.hash='#googtrans(en)';location.reload();">EN</a></li>
+                <li><a href="#.">EN</a></li>
                 <!-- language item -->
-                <li class="art-active-lang"><a href="javascript:void()" onclick="window.location.hash='#googtrans(fr)';location.reload();">Fr</a></li>
+                <li class="art-active-lang"><a href="#.">FR</a></li>
               </ul>
               <!-- language change end -->
 
@@ -1090,19 +1082,6 @@ html = """
   <!-- main js -->
   <script src="js/main.js"></script>
 
-  <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-  }
-  </script>
-
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 
 </html>
-
-
-"""
-
-print(html)

@@ -1,11 +1,3 @@
-# coding:utf-8
-import cgi
-
-print("content-type: text/html; charset=utf-8\n")
-
-
-html = """
-
 <!doctype html>
 <html lang="fr">
 
@@ -78,9 +70,9 @@ html = """
               </div>
               <!-- avatar end -->
               <!-- name -->
-              <h5 class="art-name mb-10"><a href="/index.py">Oswald AGBODJALOU<a></h5>
-                <!-- post -->
-                <div class="art-sm-text">Développeur Fullstack <br>Python/Wordpress</div>
+              <h5 class="art-name mb-10"><a href="/index.html">Oswald AGBODJALOU</a></h5>
+              <!-- post -->
+              <div class="art-sm-text">Développeur Fullstack <br>Python/Wordpress</div>
             </div>
             <!-- info bar header end -->
 
@@ -313,7 +305,7 @@ html = """
                       <!-- title frame -->
                       <div class="art-title-frame">
                         <!-- title -->
-                        <h4>Project title</h4>
+                        <h4>Publication title</h4>
                       </div>
                       <!-- title frame end -->
                       <!-- right frame -->
@@ -333,9 +325,9 @@ html = """
                     <!-- project cover -->
                     <div class="art-a art-project-cover">
                       <!-- item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/3.jpg" class="art-portfolio-item-frame art-horizontal">
+                      <a data-fancybox="gallery" href="img/blog/2.jpg" class="art-portfolio-item-frame art-horizontal">
                         <!-- img -->
-                        <img src="img/works/thumbnail/3.jpg" alt="item">
+                        <img src="img/blog/2.jpg" alt="item">
                         <!-- zoom icon -->
                         <span class="art-item-hover"><i class="fas fa-expand"></i></span>
                       </a>
@@ -347,32 +339,36 @@ html = """
                   <!-- col end -->
 
                   <!-- col -->
-                  <div class="col-lg-12">
-
-                    <!-- section title -->
-                    <div class="art-section-title">
-                      <!-- title frame -->
-                      <div class="art-title-frame">
-                        <!-- title -->
-                        <h4>Project details</h4>
-                      </div>
-                      <!-- title frame end -->
-                    </div>
-                    <!-- section title end -->
-
-                  </div>
-                  <!-- col end -->
-
-                  <!-- col -->
                   <div class="col-lg-8">
 
-                    <div class="art-a art-card art-fluid-card">
-                      <h5 class="mb-15">Description</h5>
-                      <div class="mb-15">Perferendis modi tempora, minus facere! Animi ipsam explicabo beatae soluta qui repellat minus perspiciatis placeat
-                        doloribus praesentium laborum debitis error sed ex nisi, ipsum ad obcaecati assumenda ut recusandae. Vero, voluptate, magni unde accusantium vel ducimus expedita!</div>
-                      <!-- button -->
-                      <div class="art-buttons-frame"><a href="https://www.behance.net/gallery/83236527/VIE" class="art-link art-color-link art-w-chevron" target="_blank">Read More</a></div>
+                    <!-- post text -->
+                    <div class="art-a art-card">
+                      <p class="art-lg-text art-white"><i>Consectetur adipisicing elit. Magni debitis nemo, minus aut tempora impedit quis quam omnis, odit saepe ipsa sunt magnam culpa quisquam iusto consectetur necessitatibus. Tenetur, eligendi!</i>
+                      </p>
+
+                      <p>Vero praesentium voluptatibus repellendus, delectus harum. Necessitatibus temporibus, veritatis sapiente laudantium eius rem dolore voluptas porro assumenda quam ea
+                        earum ad dolor dolores ut ipsam optio! Numquam dolore quidem sequi eum placeat voluptatum, assumenda et culpa iure nemo vero animi mollitia facere fuga sit debitis
+                        doloremque quo tempore nesciunt voluptates cum. Est, labore pariatur cupiditate non alias officia ad nihil animi itaque soluta quo perferendis vero libero ex. Iste ipsam eaque veniam facilis architecto unde, quibusdam
+                        accusamus culpa cumque delectus deserunt nemo saepe minima.</p>
+                      <ul class="art-custom-list">
+                        <li>Doloribus recusandae</li>
+                        <li>Alias officia ad nihil </li>
+                        <li>Culpa repellat</li>
+                        <li>Officiis deleniti</li>
+                      </ul>
+                      <p>Doloribus recusandae vel odio laboriosam, officia, neque ad. Eius porro, quas adipisci mollitia similique possimus ex odio eum harum eos ut optio architecto eveniet corporis nostrum beatae impedit, iste officia tempora
+                        sapiente aut, distinctio numquam inventore et! Ducimus quasi ullam saepe aliquid aut minus molestiae nam. Dolor consequuntur cum consectetur ducimus obcaecati perspiciatis harum quae atque, architecto aut voluptatibus quaerat
+                        nisi, nobis asperiores.</p>
+
+                      <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo officiis aliquam, placeat quis voluptatum ad. Eum, alias quo fuga sed?</blockquote>
+
+                      <p>Est nesciunt dolorum asperiores sint mollitia quod, nostrum eos maxime illo eveniet ducimus labore amet voluptatum laborum, ex ut similique omnis ipsum. Totam tempore praesentium assumenda ducimus porro ullam quasi, expedita
+                        sit esse alias quisquam! Asperiores at suscipit officiis deleniti soluta fugit quidem illo fuga, adipisci maiores. Nesciunt dolor, minus ex tenetur necessitatibus et id minima, vitae sit a, assumenda, iste suscipit facere.
+                        Voluptatibus animi, laboriosam qui officiis voluptatum. Voluptates quibusdam numquam distinctio fuga.</p>
+
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                     </div>
+                    <!-- post text end -->
 
                   </div>
                   <!-- col end -->
@@ -385,19 +381,13 @@ html = """
                       <div class="art-table p-15-15">
                         <ul>
                           <li>
-                            <h6>Order Date:</h6><span>24.12.2019</span>
+                            <h6>Date:</h6><span>24.12.2019</span>
                           </li>
                           <li>
-                            <h6>Final Date:</h6><span>12.03.2020</span>
+                            <h6>Author:</h6><span>Artur Carter</span>
                           </li>
                           <li>
-                            <h6>Status:</h6><span>Completed</span>
-                          </li>
-                          <li>
-                            <h6>Client:</h6><span>Envato Market</span>
-                          </li>
-                          <li>
-                            <h6>Location:</h6><span><a href="https://goo.gl/maps/b4w13Zuk9iWCsLMX7" target="_blank">Ukraine, Lviv</a></span>
+                            <h6>Category:</h6><span>Product design</span>
                           </li>
                         </ul>
                       </div>
@@ -410,7 +400,6 @@ html = """
                 </div>
                 <!-- row end -->
 
-
               </div>
               <!-- container end -->
 
@@ -423,65 +412,20 @@ html = """
                   <!-- col -->
                   <div class="col-lg-12">
 
-                    <!-- section title -->
-                    <div class="art-section-title">
-                      <!-- title frame -->
-                      <div class="art-title-frame">
-                        <!-- title -->
-                        <h4>Result</h4>
+                    <!-- pagination -->
+                    <div class="art-a art-pagination">
+                      <!-- button -->
+                      <a href="#" class="art-link art-color-link art-w-chevron art-left-link"><span>annonce précédente</span></a>
+                      <div class="art-pagination-center art-m-hidden">
+                        <a class="art-link" href="/all_blog.html">Toutes les annonces</a>
                       </div>
-                      <!-- title frame end -->
+                      <!-- button -->
+                      <a href="#" class="art-link art-color-link art-w-chevron"><span>annonce suivante</span></a>
                     </div>
-                    <!-- section title end -->
+                    <!-- pagination end -->
 
                   </div>
                   <!-- col end -->
-
-                  <div class="art-grid art-grid-2-col art-gallery">
-
-                    <!-- grid item -->
-                    <div class="art-grid-item webTemplates">
-                      <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/1.jpg" class="art-a art-portfolio-item-frame art-horizontal">
-                        <!-- img -->
-                        <img src="img/works/thumbnail/1.jpg" alt="item">
-                        <!-- zoom icon -->
-                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                      </a>
-                      <!-- grid item frame end -->
-
-                    </div>
-                    <!-- grid item end -->
-
-                    <!-- grid item -->
-                    <div class="art-grid-item logos">
-                      <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/2.jpg" class="art-a art-portfolio-item-frame art-vertical">
-                        <!-- img -->
-                        <img src="img/works/thumbnail/2.jpg" alt="item">
-                        <!-- zoom icon -->
-                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                      </a>
-                      <!-- grid item frame end -->
-
-                    </div>
-                    <!-- grid item end -->
-
-                    <!-- grid item -->
-                    <div class="art-grid-item drawings">
-                      <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/3.jpg" class="art-a art-portfolio-item-frame art-horizontal">
-                        <!-- img -->
-                        <img src="img/works/thumbnail/3.jpg" alt="item">
-                        <!-- zoom icon -->
-                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                      </a>
-                      <!-- grid item frame end -->
-
-                    </div>
-                    <!-- grid item end -->
-
-                  </div>
 
                 </div>
                 <!-- row end -->
@@ -493,7 +437,7 @@ html = """
               <div class="container-fluid">
 
                 <!-- row -->
-                <div class="row">
+                <div class="row p-30-0">
 
                   <!-- col -->
                   <div class="col-lg-12">
@@ -503,7 +447,7 @@ html = """
                       <!-- title frame -->
                       <div class="art-title-frame">
                         <!-- title -->
-                        <h4>Client reviews</h4>
+                        <h4>Similar posts</h4>
                       </div>
                       <!-- title frame end -->
                     </div>
@@ -516,173 +460,149 @@ html = """
                   <div class="col-lg-12">
 
                     <!-- slider container -->
-                    <div class="swiper-container art-testimonial-slider" style="overflow: visible">
+                    <div class="swiper-container art-blog-slider" style="overflow: visible">
                       <!-- slider wrapper -->
                       <div class="swiper-wrapper">
                         <!-- slide -->
                         <div class="swiper-slide">
 
-                          <!-- testimonial -->
-                          <div class="art-a art-testimonial">
-                            <!-- testimonial body -->
-                            <div class="testimonial-body">
-                              <!-- photo -->
-                              <img class="art-testimonial-face" src="img/testimonials/face-1.jpg" alt="face">
-                              <!-- name -->
-                              <h5>Paul Trueman</h5>
-                              <div class="art-el-suptitle mb-15">Template author</div>
+                          <!-- blog post card -->
+                          <div class="art-a art-blog-card">
+                            <!-- post cover -->
+                            <a href="/blog-post.html" class="art-port-cover">
+                              <!-- img -->
+                              <img src="img/blog/1.jpg" alt="blog post">
+                            </a>
+                            <!-- post cover end -->
+                            <!-- post description -->
+                            <div class="art-post-description">
+                              <!-- title -->
+                              <a href="/blog-post.html">
+                                <h5 class="mb-15">Blog post title</h5>
+                              </a>
                               <!-- text -->
-                              <div class="mb-15">Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur!
-                                This is easily a 5 star freelancer.</div>
+                              <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
+                              <!-- link -->
+                              <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                             </div>
-                            <!-- testimonial body end -->
-                            <!-- testimonial footer -->
-                            <div class="art-testimonial-footer">
-                              <div class="art-left-side">
-                                <!-- star rate -->
-                                <ul class="art-star-rate">
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                </ul>
-                                <!-- star rate end -->
-                              </div>
-                              <div class="art-right-side">
-
-                              </div>
-                            </div>
-                            <!-- testimonial footer end -->
+                            <!-- post description end -->
                           </div>
-                          <!-- testimonial end -->
+                          <!-- blog post card end -->
 
                         </div>
                         <!-- slide end -->
-
                         <!-- slide -->
                         <div class="swiper-slide">
 
-                          <!-- testimonial -->
-                          <div class="art-a art-testimonial">
-                            <!-- testimonial body -->
-                            <div class="testimonial-body">
-                              <!-- photo -->
-                              <img class="art-testimonial-face" src="img/testimonials/face-2.jpg" alt="face">
-                              <!-- name -->
-                              <h5>Paul Trueman</h5>
-                              <div class="art-el-suptitle mb-15">Template author</div>
+                          <!-- blog post card -->
+                          <div class="art-a art-blog-card">
+                            <!-- post cover -->
+                            <a href="/blog-post.html" class="art-port-cover">
+                              <!-- img -->
+                              <img src="img/blog/2.jpg" alt="blog post">
+                            </a>
+                            <!-- post cover end -->
+                            <!-- post description -->
+                            <div class="art-post-description">
+                              <!-- title -->
+                              <a href="/blog-post.html">
+                                <h5 class="mb-15">Blog post title</h5>
+                              </a>
                               <!-- text -->
-                              <div class="mb-15">Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur!
-                                This is easily a 5 star freelancer.</div>
+                              <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
+                              <!-- link -->
+                              <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                             </div>
-                            <!-- testimonial body end -->
-                            <!-- testimonial footer -->
-                            <div class="art-testimonial-footer">
-                              <div class="art-left-side">
-                                <!-- star rate -->
-                                <ul class="art-star-rate">
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li class="art-empty-item"><i class="fas fa-star"></i></li>
-                                </ul>
-                                <!-- star rate end -->
-                              </div>
-                              <div class="art-right-side">
-
-                              </div>
-                            </div>
-                            <!-- testimonial footer end -->
+                            <!-- post description end -->
                           </div>
-                          <!-- testimonial end -->
+                          <!-- blog post card end -->
 
                         </div>
                         <!-- slide end -->
-
                         <!-- slide -->
                         <div class="swiper-slide">
 
-                          <!-- testimonial -->
-                          <div class="art-a art-testimonial">
-                            <!-- testimonial body -->
-                            <div class="testimonial-body">
-                              <!-- photo -->
-                              <img class="art-testimonial-face" src="img/testimonials/face-3.jpg" alt="face">
-                              <!-- name -->
-                              <h5>Paul Trueman</h5>
-                              <div class="art-el-suptitle mb-15">Template author</div>
+                          <!-- blog post card -->
+                          <div class="art-a art-blog-card">
+                            <!-- post cover -->
+                            <a href="/blog-post.html" class="art-port-cover">
+                              <!-- img -->
+                              <img src="img/blog/3.jpg" alt="blog post">
+                            </a>
+                            <!-- post cover end -->
+                            <!-- post description -->
+                            <div class="art-post-description">
+                              <!-- title -->
+                              <a href="/blog-post.html">
+                                <h5 class="mb-15">Blog post title</h5>
+                              </a>
                               <!-- text -->
-                              <div class="mb-15">Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur!
-                                This is easily a 5 star freelancer.</div>
+                              <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
+                              <!-- link -->
+                              <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                             </div>
-                            <!-- testimonial body end -->
-                            <!-- testimonial footer -->
-                            <div class="art-testimonial-footer">
-                              <div class="art-left-side">
-                                <!-- star rate -->
-                                <ul class="art-star-rate">
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                </ul>
-                                <!-- star rate end -->
-                              </div>
-                              <div class="art-right-side">
-
-                              </div>
-                            </div>
-                            <!-- testimonial footer end -->
+                            <!-- post description end -->
                           </div>
-                          <!-- testimonial end -->
+                          <!-- blog post card end -->
 
                         </div>
                         <!-- slide end -->
-
                         <!-- slide -->
                         <div class="swiper-slide">
 
-                          <!-- testimonial -->
-                          <div class="art-a art-testimonial">
-                            <!-- testimonial body -->
-                            <div class="testimonial-body">
-                              <!-- photo -->
-                              <img class="art-testimonial-face" src="img/testimonials/face-4.jpg" alt="face">
-                              <!-- name -->
-                              <h5>Paul Trueman</h5>
-                              <div class="art-el-suptitle mb-15">Template author</div>
+                          <!-- blog post card -->
+                          <div class="art-a art-blog-card">
+                            <!-- post cover -->
+                            <a href="/blog-post.html" class="art-port-cover">
+                              <!-- img -->
+                              <img src="img/blog/4.jpg" alt="blog post">
+                            </a>
+                            <!-- post cover end -->
+                            <!-- post description -->
+                            <div class="art-post-description">
+                              <!-- title -->
+                              <a href="/blog-post.html">
+                                <h5 class="mb-15">Blog post title</h5>
+                              </a>
                               <!-- text -->
-                              <div class="mb-15">Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur!
-                                This is easily a 5 star freelancer.</div>
+                              <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
+                              <!-- link -->
+                              <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                             </div>
-                            <!-- testimonial body end -->
-                            <!-- testimonial footer -->
-                            <div class="art-testimonial-footer">
-                              <div class="art-left-side">
-                                <!-- star rate -->
-                                <ul class="art-star-rate">
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                  <li><i class="fas fa-star"></i></li>
-                                </ul>
-                                <!-- star rate end -->
-                              </div>
-                              <div class="art-right-side">
-
-                              </div>
-                            </div>
-                            <!-- testimonial footer end -->
+                            <!-- post description end -->
                           </div>
-                          <!-- testimonial end -->
+                          <!-- blog post card end -->
 
                         </div>
                         <!-- slide end -->
+                        <!-- slide -->
+                        <div class="swiper-slide">
 
+                          <!-- blog post card -->
+                          <div class="art-a art-blog-card">
+                            <!-- post cover -->
+                            <a href="/blog-post.html" class="art-port-cover">
+                              <!-- img -->
+                              <img src="img/blog/5.jpg" alt="blog post">
+                            </a>
+                            <!-- post cover end -->
+                            <!-- post description -->
+                            <div class="art-post-description">
+                              <!-- title -->
+                              <a href="/blog-post.html">
+                                <h5 class="mb-15">Blog post title</h5>
+                              </a>
+                              <!-- text -->
+                              <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
+                              <!-- link -->
+                              <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
+                            </div>
+                            <!-- post description end -->
+                          </div>
+                          <!-- blog post card end -->
+
+                        </div>
+                        <!-- slide end -->
                       </div>
                       <!-- slider wrapper end -->
                     </div>
@@ -712,9 +632,9 @@ html = """
                         <!-- slider navigation -->
                         <div class="art-slider-nav-frame">
                           <!-- prev -->
-                          <div class="art-slider-nav art-testi-swiper-prev"><i class="fas fa-chevron-left"></i></div>
+                          <div class="art-slider-nav art-blog-swiper-prev"><i class="fas fa-chevron-left"></i></div>
                           <!-- next -->
-                          <div class="art-slider-nav art-testi-swiper-next"><i class="fas fa-chevron-right"></i></div>
+                          <div class="art-slider-nav art-blog-swiper-next"><i class="fas fa-chevron-right"></i></div>
                         </div>
                         <!-- slider navigation -->
 
@@ -737,144 +657,7 @@ html = """
               <div class="container-fluid">
 
                 <!-- row -->
-                <div class="row p-30-0">
-
-                  <!-- col -->
-                  <div class="col-md-3 col-6">
-
-                    <!-- couner frame -->
-                    <div class="art-counter-frame">
-                      <!-- counter -->
-                      <div class="art-counter-box">
-                        <!-- counter number -->
-                        <span class="art-counter">10</span><span class="art-counter-plus">+</span>
-                      </div>
-                      <!-- counter end -->
-                      <!-- title -->
-                      <h6>Years Experience</h6>
-                    </div>
-                    <!-- couner frame end -->
-
-                  </div>
-                  <!-- col end -->
-
-                  <!-- col -->
-                  <div class="col-md-3 col-6">
-
-                    <!-- couner frame -->
-                    <div class="art-counter-frame">
-                      <!-- counter -->
-                      <div class="art-counter-box">
-                        <!-- counter number -->
-                        <span class="art-counter">143</span>
-                      </div>
-                      <!-- counter end -->
-                      <!-- title -->
-                      <h6>Completed Projects</h6>
-                    </div>
-                    <!-- couner frame end -->
-
-                  </div>
-                  <!-- col end -->
-
-                  <!-- col -->
-                  <div class="col-md-3 col-6">
-
-                    <!-- couner frame -->
-                    <div class="art-counter-frame">
-                      <!-- counter -->
-                      <div class="art-counter-box">
-                        <!-- counter number -->
-                        <span class="art-counter">114</span>
-                      </div>
-                      <!-- counter end -->
-                      <!-- title -->
-                      <h6>Happy Customers</h6>
-                    </div>
-                    <!-- couner frame end -->
-
-                  </div>
-                  <!-- col end -->
-
-                  <!-- col -->
-                  <div class="col-md-3 col-6">
-
-                    <!-- couner frame -->
-                    <div class="art-counter-frame">
-                      <!-- counter -->
-                      <div class="art-counter-box">
-                        <!-- counter number -->
-                        <span class="art-counter">20</span><span class="art-counter-plus">+</span>
-                      </div>
-                      <!-- counter end -->
-                      <!-- title -->
-                      <h6>Honors and Awards</h6>
-                    </div>
-                    <!-- couner frame end -->
-
-                  </div>
-                  <!-- col end -->
-
-                </div>
-                <!-- row end -->
-
-              </div>
-              <!-- container end -->
-
-              <!-- container -->
-              <div class="container-fluid">
-
-                <!-- row -->
                 <div class="row">
-
-                  <!-- col -->
-                  <div class="col-lg-12">
-
-                    <!-- call to action -->
-                    <div class="art-a art-banner" style="background-image: url(img/bg.jpg)">
-                      <!-- overlay -->
-                      <div class="art-banner-overlay">
-                        <!-- main title -->
-                        <div class="art-banner-title text-center">
-                          <!-- title -->
-                          <h1 class="mb-15">Êtes-vous prêt pour une collaboration ?</h1>
-                          <!-- suptitle -->
-                          <div class="art-lg-text art-code mb-25">Donnez-moi l'occasion de vous prouver mes compétences !</div>
-                          <!-- button -->
-                          <a href="/contact.py" class="art-btn art-btn-md"><span>Me contacter</span></a>
-                        </div>
-                        <!-- main title end -->
-                      </div>
-                      <!-- overlay end -->
-                    </div>
-                    <!-- call to action end  -->
-
-                    <!-- projects navigation -->
-                    <div class="art-a art-pagination">
-                      <!-- button -->
-                      <a href="/project_1.py" class="art-link art-color-link art-w-chevron art-left-link"><span>Projet précédent</span></a>
-                      <div class="art-pagination-center art-m-hidden">
-                        <a class="art-link" href="/all_projects.py">Tous les projets</a>
-                      </div>
-                      <!-- button -->
-                      <a href="#" class="art-link art-color-link art-w-chevron"><span>Projet suivant</span></a>
-                    </div>
-                    <!-- projects navigation end -->
-
-                  </div>
-                  <!-- col end -->
-
-                </div>
-                <!-- row end -->
-
-              </div>
-              <!-- container end -->
-
-              <!-- container -->
-              <div class="container-fluid">
-
-                <!-- row -->
-                <div class="row p-30-0">
 
                   <!-- col -->
                   <div class="col-6 col-lg-3">
@@ -917,7 +700,7 @@ html = """
                 <footer>
                   <!-- copyright -->
                   <div>© 2023 VALDO TECHNOLOGY</div>
-                  <div>AUTEUR :&#160; <a href="index.py" target="_blank">Oswald J~Chris</a></div>
+                  <div>AUTEUR :&#160; <a href="index.html" target="_blank">Oswald J~Chris</a></div>
                 </footer>
                 <!-- footer end -->
 
@@ -963,32 +746,32 @@ html = """
                 <!-- menu list -->
                 <ul class="main-menu">
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/index.py">Acceuil</a></li>
+                  <li class="menu-item"><a href="/index.html">Acceuil</a></li>
                   <!-- menu item -->
-                  <li class="menu-item menu-item-has-children current-menu-item">
+                  <li class="menu-item menu-item-has-children">
                     <a href="#.">Portfolio</a>
                     <!-- sub menu -->
                     <ul class="sub-menu">
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/project_1.py">Projet 1</a></li>
+                      <li class="menu-item"><a href="/project_1.html">Projet 1</a></li>
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/all_projects.py">Les projets réalisés</a></li>
+                      <li class="menu-item"><a href="/all_projects.html">Les projets réalisés</a></li>
                     </ul>
                     <!-- sub menu end -->
                   </li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/history.py">Mon Parcours Professionnel</a></li>
+                  <li class="menu-item"><a href="/history.html">Mon Parcours professionnel</a></li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/contact.py">Contact</a></li>
+                  <li class="menu-item"><a href="/contact.html">Contact</a></li>
                   <!-- menu item -->
-                  <li class="menu-item menu-item-has-children">
+                  <li class="menu-item menu-item-has-children current-menu-item">
                     <a href="#.">Blog</a>
                     <!-- sub menu -->
                     <ul class="sub-menu">
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/blog_1.py">Nouvelle annonce</a></li>
+                      <li class="menu-item"><a href="/blog_1.html">Nouvelle annonce</a></li>
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/all_blog.py">Les annonces</a></li>
+                      <li class="menu-item"><a href="/all_blog.html">Les annonces</a></li>
                     </ul>
                     <!-- sub menu end -->
                   </li>
@@ -1002,9 +785,9 @@ html = """
               <!-- language change -->
               <ul class="art-language-change">
                 <!-- language item -->
-                <li><a href="javascript:void()" onclick="window.location.hash='#googtrans(en)';location.reload();">EN</a></li>
+                <li><a href="#.">EN</a></li>
                 <!-- language item -->
-                <li class="art-active-lang"><a href="javascript:void()" onclick="window.location.hash='#googtrans(fr)';location.reload();">Fr</a></li>
+                <li class="art-active-lang"><a href="#.">FR</a></li>
               </ul>
               <!-- language change end -->
 
@@ -1063,19 +846,6 @@ html = """
   <!-- main js -->
   <script src="js/main.js"></script>
 
-  <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-  }
-  </script>
-
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 
 </html>
-
-
-"""
-
-print(html)

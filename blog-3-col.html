@@ -1,13 +1,5 @@
-# coding:utf-8
-import cgi
-
-print("content-type: text/html; charset=utf-8\n")
-
-
-html = """
-
 <!doctype html>
-<html lang="fr">
+<html lang="zxx">
 
 <head>
   <!-- Required meta tags -->
@@ -48,7 +40,7 @@ html = """
         <!-- info bar -->
         <div class="art-info-bar">
 
-          <!-- info bar frame -->
+          <!-- menu bar frame -->
           <div class="art-info-bar-frame">
 
             <!-- info bar header -->
@@ -78,7 +70,7 @@ html = """
               </div>
               <!-- avatar end -->
               <!-- name -->
-              <h5 class="art-name mb-10"><a href="/index.py">Oswald AGBODJALOU</a></h5>
+              <h5 class="art-name mb-10"><a href="/portfolio_de_oswald_agbodj.html">Oswald AGBODJALOU</a></h5>
               <!-- post -->
               <div class="art-sm-text">Développeur Fullstack <br>Python/Wordpress</div>
             </div>
@@ -322,12 +314,12 @@ html = """
                   </div>
                   <!-- col end -->
                   <!-- col -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
 
                     <!-- blog post card -->
                     <div class="art-a art-blog-card">
                       <!-- post cover -->
-                      <a href="/blog_1.py" class="art-port-cover">
+                      <a href="/blog-post.html" class="art-port-cover">
                         <!-- img -->
                         <img src="img/blog/1.jpg" alt="blog post">
                       </a>
@@ -335,13 +327,13 @@ html = """
                       <!-- post description -->
                       <div class="art-post-description">
                         <!-- title -->
-                        <a href="/blog-post.py">
+                        <a href="/blog-post.html">
                           <h5 class="mb-15">Blog post title</h5>
                         </a>
                         <!-- text -->
                         <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
                         <!-- link -->
-                        <a href="/blog-post.py" class="art-link art-color-link art-w-chevron">Read more</a>
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
                       <!-- post description end -->
                     </div>
@@ -350,12 +342,12 @@ html = """
                   </div>
                   <!-- col end -->
                   <!-- col -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
 
                     <!-- blog post card -->
                     <div class="art-a art-blog-card">
                       <!-- post cover -->
-                      <a href="/blog-post.py" class="art-port-cover">
+                      <a href="/blog-post.html" class="art-port-cover">
                         <!-- img -->
                         <img src="img/blog/2.jpg" alt="blog post">
                       </a>
@@ -363,13 +355,13 @@ html = """
                       <!-- post description -->
                       <div class="art-post-description">
                         <!-- title -->
-                        <a href="/blog-post.py">
+                        <a href="/blog-post.html">
                           <h5 class="mb-15">Blog post title</h5>
                         </a>
                         <!-- text -->
                         <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
                         <!-- link -->
-                        <a href="/blog-post.py" class="art-link art-color-link art-w-chevron">Read more</a>
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
                       <!-- post description end -->
                     </div>
@@ -378,12 +370,12 @@ html = """
                   </div>
                   <!-- col end -->
                   <!-- col -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
 
                     <!-- blog post card -->
                     <div class="art-a art-blog-card">
                       <!-- post cover -->
-                      <a href="/blog-post.py" class="art-port-cover">
+                      <a href="/blog-post.html" class="art-port-cover">
                         <!-- img -->
                         <img src="img/blog/3.jpg" alt="blog post">
                       </a>
@@ -391,13 +383,13 @@ html = """
                       <!-- post description -->
                       <div class="art-post-description">
                         <!-- title -->
-                        <a href="/blog-post.py">
+                        <a href="/blog-post.html">
                           <h5 class="mb-15">Blog post title</h5>
                         </a>
                         <!-- text -->
                         <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
                         <!-- link -->
-                        <a href="/blog_1.py" class="art-link art-color-link art-w-chevron">Read more</a>
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
                       <!-- post description end -->
                     </div>
@@ -407,12 +399,12 @@ html = """
                   <!-- col end -->
 
                   <!-- col -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
 
                     <!-- blog post card -->
                     <div class="art-a art-blog-card">
                       <!-- post cover -->
-                      <a href="/blog-post.py" class="art-port-cover">
+                      <a href="/blog-post.html" class="art-port-cover">
                         <!-- img -->
                         <img src="img/blog/4.jpg" alt="blog post">
                       </a>
@@ -420,13 +412,13 @@ html = """
                       <!-- post description -->
                       <div class="art-post-description">
                         <!-- title -->
-                        <a href="/blog-post.py">
+                        <a href="/blog-post.html">
                           <h5 class="mb-15">Blog post title</h5>
                         </a>
                         <!-- text -->
                         <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
                         <!-- link -->
-                        <a href="/blog-post.py" class="art-link art-color-link art-w-chevron">Read more</a>
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
                       <!-- post description end -->
                     </div>
@@ -435,12 +427,12 @@ html = """
                   </div>
                   <!-- col end -->
                   <!-- col -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
 
                     <!-- blog post card -->
                     <div class="art-a art-blog-card">
                       <!-- post cover -->
-                      <a href="/blog-post.py" class="art-port-cover">
+                      <a href="/blog-post.html" class="art-port-cover">
                         <!-- img -->
                         <img src="img/blog/5.jpg" alt="blog post">
                       </a>
@@ -448,13 +440,13 @@ html = """
                       <!-- post description -->
                       <div class="art-post-description">
                         <!-- title -->
-                        <a href="/blog-post.py">
+                        <a href="/blog-post.html">
                           <h5 class="mb-15">Blog post title</h5>
                         </a>
                         <!-- text -->
                         <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
                         <!-- link -->
-                        <a href="/blog-post.py" class="art-link art-color-link art-w-chevron">Read more</a>
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
                       <!-- post description end -->
                     </div>
@@ -463,12 +455,12 @@ html = """
                   </div>
                   <!-- col end -->
                   <!-- col -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
 
                     <!-- blog post card -->
                     <div class="art-a art-blog-card">
                       <!-- post cover -->
-                      <a href="/blog-post.py" class="art-port-cover">
+                      <a href="/blog-post.html" class="art-port-cover">
                         <!-- img -->
                         <img src="img/blog/6.jpg" alt="blog post">
                       </a>
@@ -476,13 +468,13 @@ html = """
                       <!-- post description -->
                       <div class="art-post-description">
                         <!-- title -->
-                        <a href="/blog-post.py">
+                        <a href="/blog-post.html">
                           <h5 class="mb-15">Blog post title</h5>
                         </a>
                         <!-- text -->
                         <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
                         <!-- link -->
-                        <a href="/blog-post.py" class="art-link art-color-link art-w-chevron">Read more</a>
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
                       <!-- post description end -->
                     </div>
@@ -492,12 +484,12 @@ html = """
                   <!-- col end -->
 
                   <!-- col -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
 
                     <!-- blog post card -->
                     <div class="art-a art-blog-card">
                       <!-- post cover -->
-                      <a href="/blog-post.py" class="art-port-cover">
+                      <a href="/blog-post.html" class="art-port-cover">
                         <!-- img -->
                         <img src="img/blog/7.jpg" alt="blog post">
                       </a>
@@ -505,13 +497,13 @@ html = """
                       <!-- post description -->
                       <div class="art-post-description">
                         <!-- title -->
-                        <a href="/blog-post.py">
+                        <a href="/blog-post.html">
                           <h5 class="mb-15">Blog post title</h5>
                         </a>
                         <!-- text -->
                         <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
                         <!-- link -->
-                        <a href="/blog-post.py" class="art-link art-color-link art-w-chevron">Read more</a>
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
                       <!-- post description end -->
                     </div>
@@ -520,12 +512,12 @@ html = """
                   </div>
                   <!-- col end -->
                   <!-- col -->
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
 
                     <!-- blog post card -->
                     <div class="art-a art-blog-card">
                       <!-- post cover -->
-                      <a href="/blog-post.py" class="art-port-cover">
+                      <a href="/blog-post.html" class="art-port-cover">
                         <!-- img -->
                         <img src="img/blog/8.jpg" alt="blog post">
                       </a>
@@ -533,13 +525,41 @@ html = """
                       <!-- post description -->
                       <div class="art-post-description">
                         <!-- title -->
-                        <a href="/blog-post.py">
+                        <a href="/blog-post.html">
                           <h5 class="mb-15">Blog post title</h5>
                         </a>
                         <!-- text -->
                         <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
                         <!-- link -->
-                        <a href="/blog-post.py" class="art-link art-color-link art-w-chevron">Read more</a>
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
+                      </div>
+                      <!-- post description end -->
+                    </div>
+                    <!-- blog post card end -->
+
+                  </div>
+                  <!-- col end -->
+                  <!-- col -->
+                  <div class="col-lg-4">
+
+                    <!-- blog post card -->
+                    <div class="art-a art-blog-card">
+                      <!-- post cover -->
+                      <a href="/blog-post.html" class="art-port-cover">
+                        <!-- img -->
+                        <img src="img/blog/9.jpg" alt="blog post">
+                      </a>
+                      <!-- post cover end -->
+                      <!-- post description -->
+                      <div class="art-post-description">
+                        <!-- title -->
+                        <a href="/blog-post.html">
+                          <h5 class="mb-15">Blog post title</h5>
+                        </a>
+                        <!-- text -->
+                        <div class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet!</div>
+                        <!-- link -->
+                        <a href="/blog-post.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
                       <!-- post description end -->
                     </div>
@@ -566,15 +586,16 @@ html = """
                     <!-- pagination -->
                     <div class="art-a art-pagination">
                       <!-- button -->
-                      <a href="#" class="art-link art-color-link art-w-chevron art-left-link"><span>Annonce précédente</span></a>
+                      <a href="/blog-2-col.html" class="art-link art-color-link art-w-chevron art-left-link"><span>Previous page</span></a>
                       <div class="art-pagination-center art-m-hidden">
-                        <a class="art-active-pag"href="/all_blog.py">1</a>
-                        <a href="/blog_1.py">2</a>
-                        <a href="#">3</a>
-                        <a href="#">...</a>
+                        <a href="/blog-2-col.html"></a>
+                        <a href="/blog-2-col.html">1</a>
+                        <a class="art-active-pag" href="/blog-2-col.html">2</a>
+                        <a href="/blog-2-col.html">3</a>
+                        <a href="/blog-2-col.html">...</a>
                       </div>
                       <!-- button -->
-                      <a href="#" class="art-link art-color-link art-w-chevron"><span>Annonce suivante</span></a>
+                      <a href="/blog-2-col.html" class="art-link art-color-link art-w-chevron"><span>Next page</span></a>
                     </div>
                     <!-- pagination end -->
 
@@ -634,7 +655,7 @@ html = """
                 <footer>
                   <!-- copyright -->
                   <div>© 2023 VALDO TECHNOLOGY</div>
-                  <div>AUTEUR :&#160; <a href="index.py" target="_blank">Oswald J~Chris</a></div>
+                  <div>AUTEUR :&#160; <a href="portfolio_de_oswald_agbodj.html" target="_blank">Oswald J~Chris</a></div>
                 </footer>
                 <!-- footer end -->
 
@@ -680,32 +701,32 @@ html = """
                 <!-- menu list -->
                 <ul class="main-menu">
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/index.py">Acceuil</a></li>
+                  <li class="menu-item"><a href="/portfolio_de_oswald_agbodj.html">Acceuil</a></li>
                   <!-- menu item -->
-                  <li class="menu-item menu-item-has-children current-menu-item">
+                  <li class="menu-item menu-item-has-children">
                     <a href="#.">Portfolio</a>
                     <!-- sub menu -->
                     <ul class="sub-menu">
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/project_1.py">Projet 1</a></li>
+                      <li class="menu-item"><a href="/portfolio-single.html">Single project</a></li>
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/all_projects.py">Les projets réalisés</a></li>
+                      <li class="menu-item"><a href="/portfolio-single-2.html">Single project 2</a></li>
                     </ul>
                     <!-- sub menu end -->
                   </li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/history.py">Mon Parcours Professionnel</a></li>
+                  <li class="menu-item"><a href="/history.html">Mon Parcours professionnel</a></li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/contact.py">Contact</a></li>
+                  <li class="menu-item"><a href="/contact.html">Contact</a></li>
                   <!-- menu item -->
-                  <li class="menu-item menu-item-has-children">
+                  <li class="menu-item menu-item-has-children current-menu-item">
                     <a href="#.">Blog</a>
                     <!-- sub menu -->
                     <ul class="sub-menu">
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/blog_1.py">Nouvelle annonce</a></li>
+                      <li class="menu-item"><a href="/blog-3-col.html">3 column</a></li>
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/all_blog.py">Les annonces</a></li>
+                      <li class="menu-item"><a href="/blog-post.html">Publication</a></li>
                     </ul>
                     <!-- sub menu end -->
                   </li>
@@ -719,9 +740,9 @@ html = """
               <!-- language change -->
               <ul class="art-language-change">
                 <!-- language item -->
-                <li><a href="javascript:void()" onclick="window.location.hash='#googtrans(en)';location.reload();">EN</a></li>
+                <li><a href="#.">EN</a></li>
                 <!-- language item -->
-                <li class="art-active-lang"><a href="javascript:void()" onclick="window.location.hash='#googtrans(fr)';location.reload();">Fr</a></li>
+                <li class="art-active-lang"><a href="#.">FR</a></li>
               </ul>
               <!-- language change end -->
 
@@ -780,19 +801,6 @@ html = """
   <!-- main js -->
   <script src="js/main.js"></script>
 
-  <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-  }
-  </script>
-
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 
 </html>
-
-
-"""
-
-print(html)

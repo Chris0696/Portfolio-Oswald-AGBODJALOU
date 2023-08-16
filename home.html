@@ -1,10 +1,3 @@
-# coding:utf-8
-import cgi
-
-print("content-type: text/html; charset=utf-8\n")
-
-html = """
-
 <!doctype html>
 <html lang="fr">
 
@@ -15,7 +8,7 @@ html = """
   <!-- color of address bar in mobile browser -->
   <meta name="theme-color" content="#2B2B35">
   <!-- favicon  -->
-  <link rel="shortcut icon" href="img/Valdo_Technology.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/thumbnail.ico" type="image/x-icon">
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
   <!-- font awesome css -->
@@ -27,8 +20,7 @@ html = """
   <!-- main css -->
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Oswald AGBODJALOU</title>
-
+  <title>Valdo-Tech</title>
 </head>
 
 <body>
@@ -78,9 +70,9 @@ html = """
               </div>
               <!-- avatar end -->
               <!-- name -->
-              <h5 class="art-name mb-10"><a href="/index.py">Oswald AGBODJALOU<a></h5>
+              <h5 class="art-name mb-10"><a href="/home.html">Oswald AGBODJALOU<a></h5>
               <!-- post -->
-              <div class="art-sm-text">Développeur Python / Wordpress <br>iOS / Android </div>
+              <div class="art-sm-text">Développeur Fullstack <br>Python/Wordpress, </div>
             </div>
             <!-- info bar header end -->
 
@@ -101,7 +93,7 @@ html = """
                   </li>
                   <!-- age -->
                   <li>
-                    <h6>Age:</h6><span>27</span>
+                    <h6>Age:</h6><span>26</span>
                   </li>
                 </ul>
               </div>
@@ -133,7 +125,7 @@ html = """
                 <div class="art-lang-skills-item">
                   <div id="circleprog3" class="art-cirkle-progress"></div>
                   <!-- title -->
-                  <h6>Langue locale</h6>
+                  <h6>Fon</h6>
                 </div>
                 <!-- skill end -->
 
@@ -307,7 +299,7 @@ html = """
                   <div class="col-lg-12">
 
                     <!-- banner -->
-                    <div class="art-a art-banner" style="background-image: url(img/cover.jpg)">
+                    <div class="art-a art-banner" style="background-image: url(img/bg.jpg)">
                       <!-- banner back -->
                       <div class="art-banner-back"></div>
                       <!-- banner dec -->
@@ -317,19 +309,18 @@ html = """
                         <!-- main title -->
                         <div class="art-banner-title">
                           <!-- title -->
-                          <h1 class="mb-15">Bienvenue ! Découvrez mon <br>parcours professionnel !</h1>
+                          <h1 class="mb-15">Découvrez mon Incroyable <br>Parcours professionnel !</h1>
                           <!-- suptitle -->
                           <div class="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; Je crée <span class="txt-rotate" data-period="2000"
-                              data-rotate='[ "des interfaces web.", "tout type de site web.", "des maquettes de conception.", "des outils d&apos;automatisation." , "et je développe vos <br>applications mobiles iOS/Android de A à Z."]'></span>&lt;/<i>code</i>&gt;</div>
+                              data-rotate='[ "des interfaces web.", "tout type de site web.", "des maquettes de conception.", "des outils automatisation." ]'></span>&lt;/<i>code</i>&gt;</div>
                           <div class="art-buttons-frame">
                             <!-- button -->
-                            <a href="/history.py" class="art-btn art-btn-md"><span>SAVOIR TOUT SUR MOI</span></a>
+                            <a href="/history.html" class="art-btn art-btn-md"><span>SAVOIR TOUT SUR MOI</span></a>
                           </div>
                         </div>
                         <!-- main title end -->
                         <!-- photo -->
-                        <img src="" class="art-banner-photo" alt="">
-                        <img src="img/logo_python.png" class="logo_python" alt="Programmation Python">
+                        <img src="img/face-2.png" class="art-banner-photo" alt="Your Name">
                       </div>
                       <!-- banner overlay end -->
                     </div>
@@ -414,7 +405,7 @@ html = """
                       <!-- counter -->
                       <div class="art-counter-box">
                         <!-- counter number -->
-                        <span class="art-counter">13</span><span class="art-counter-plus">+</span>
+                        <span class="art-counter">20</span><span class="art-counter-plus">+</span>
                       </div>
                       <!-- counter end -->
                       <!-- title -->
@@ -468,7 +459,7 @@ html = """
                           vous avez la possibilité avec moi. Même vendre en ligne et recevoir votre paiement sur votre Mobile money.
                           </div>
                         <!-- button -->
-                        <div class="art-buttons-frame"><a href="/contact.py" class="art-link art-color-link art-w-chevron">Passer une commande</a></div>
+                        <div class="art-buttons-frame"><a href="/contact.html" class="art-link art-color-link art-w-chevron">Passer une commande</a></div>
                       </div>
                       <!-- service content end -->
                     </div>
@@ -490,7 +481,7 @@ html = """
                         <div class="mb-15"> Je vais vous concevoir une interface et optimiser tous les éléments graphiques qui la compose. 
                           J'optimiserai les enchaînements des actions, les parcours, la navigation et la facilité d'utilisation, de votre interface.</div>
                         <!-- button -->
-                        <div class="art-buttons-frame"><a href="/contact.py" class="art-link art-color-link art-w-chevron">Passer une commande</a></div>
+                        <div class="art-buttons-frame"><a href="/contact.html" class="art-link art-color-link art-w-chevron">Passer une commande</a></div>
                       </div>
                       <!-- service content end -->
                     </div>
@@ -512,7 +503,7 @@ html = """
                         <div class="mb-15">Je vais vous créer des affiches publicitaires, des enseignes, 
                           toute sorte de visuel numérique et digital. Je peux vous designer toutes les interfaces sur le web.</div>
                         <!-- button -->
-                        <div class="art-buttons-frame"><a href="/contact.py" class="art-link art-color-link art-w-chevron">Passer une commande</a></div>
+                        <div class="art-buttons-frame"><a href="/contact.html" class="art-link art-color-link art-w-chevron">Passer une commande</a></div>
                       </div>
                       <!-- service content end -->
                     </div>
@@ -566,19 +557,19 @@ html = """
                         <!-- price list -->
                         <ul class="art-price-list">
                           <!-- list item -->
-                          <li>Choix et achat de votre hébergement</li>
+                          <li>Introduction au trading</li>
                           <!-- list item -->
-                          <li>Orientation selon votre projet</li>
-                          <!-- list item -->
-                          <li>Outils de performances de votre site</li>
-                          <!-- list item -->
-                          <li class="art-empty-item">Formation Wordpress</li>
+                          <li>Coaching personnel</li>
                           <!-- list item -->
                           <li class="art-empty-item">Programmation Web</li>
+                          <!-- list item -->
+                          <li class="art-empty-item">SEO optimization</li>
+                          <!-- list item -->
+                          <li class="art-empty-item">Formation Wordpress</li>
                         </ul>
                         <!-- price list end -->
                         <!-- button -->
-                        <a href="/contact.py" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
+                        <a href="/contact.html" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
                         <div class="art-asterisk"><sup>*</sup>Gratuit uniquement lors de la commande de services payants</div>
                       </div>
                       <!-- price body end -->
@@ -616,7 +607,7 @@ html = """
                         </ul>
                         <!-- price list end -->
                         <!-- button -->
-                        <a href="/contact.py" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
+                        <a href="/contact.html" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
                       </div>
                       <!-- price body end -->
                     </div>
@@ -653,7 +644,7 @@ html = """
                         </ul>
                         <!-- price list end -->
                         <!-- button -->
-                        <a href="/contact.py" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
+                        <a href="/contact.html" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
                       </div>
                       <!-- price body end -->
                     </div>
@@ -669,7 +660,7 @@ html = """
                     <div class="art-a art-price">
                       <!-- price body -->
                       <div class="art-price-body">
-                        <h5 class="mb-30">Application web</h5>
+                        <h5 class="mb-30">Prix de départ</h5>
                         <!-- price cost -->
                         <div class="art-price-cost">
                           <div class="art-number">GRATUIT<sup>*</sup></div>
@@ -690,7 +681,7 @@ html = """
                         </ul>
                         <!-- price list end -->
                         <!-- button -->
-                        <a href="/contact.py" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
+                        <a href="/contact.html" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
                         <div class="art-asterisk"><sup>*</sup>Gratuit uniquement lors de la commande de services payants</div>
                       </div>
                       <!-- price body end -->
@@ -707,28 +698,28 @@ html = """
                     <div class="art-a art-price art-popular-price">
                       <!-- price body -->
                       <div class="art-price-body">
-                        <h5 class="mb-30">Application Web</h5>
+                        <h5 class="mb-30">Paiement horaire</h5>
                         <!-- price cost -->
                         <div class="art-price-cost">
-                          <div class="art-number"><span>/mois</span>650<span>Euro</span></div>
+                          <div class="art-number"><span>/heure</span>40.000<span>FCFA</span></div>
                         </div>
                         <!-- price cost end -->
                         <!-- price list -->
                         <ul class="art-price-list">
                           <!-- list item -->
-                          <li>Gestion de boutique en ligne</li>
+                          <li>Outils d'installation WordPress</li>
                           <!-- list item -->
-                          <li>Chat en ligne</li>
+                          <li>Achat de thème Wordpress</li>
                           <!-- list item -->
-                          <li>Réseau social</li>
+                          <li>Assistance en création de site</li>
                           <!-- list item -->
-                          <li>e-learning</li>
+                          <li class="art-empty-item">Créer un site WordPress</li>
                           <!-- list item -->
-                          <li class="art-empty-item">CMS</li>
+                          <li class="art-empty-item">Formation WordPress avancée</li>
                         </ul>
                         <!-- price list end -->
                         <!-- button -->
-                        <a href="/contact.py" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
+                        <a href="/contact.html" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
                       </div>
                       <!-- price body end -->
                     </div>
@@ -763,7 +754,7 @@ html = """
                         </ul>
                         <!-- price list end -->
                         <!-- button -->
-                        <a href="/contact.py" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
+                        <a href="/contact.html" class="art-link art-color-link art-w-chevron">Passez votre commande</a>
                       </div>
                       <!-- price body end -->
                     </div>
@@ -906,7 +897,7 @@ html = """
                               <h5>Paul Trueman</h5>
                               <div class="art-el-suptitle mb-15">Template author</div>
                               <!-- text -->
-                              <div class="mb-15">
+                              <div class="mb-15">Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur!
                                 This is easily a 5 star freelancer.</div>
                             </div>
                             <!-- testimonial body end -->
@@ -947,7 +938,7 @@ html = """
                               <h5>Paul Trueman</h5>
                               <div class="art-el-suptitle mb-15">Template author</div>
                               <!-- text -->
-                              <div class="mb-15">
+                              <div class="mb-15">Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur!
                                 This is easily a 5 star freelancer.</div>
                             </div>
                             <!-- testimonial body end -->
@@ -1072,7 +1063,8 @@ html = """
                 <footer>
                   <!-- copyright -->
                   <div>© 2023 VALDO TECHNOLOGY</div>
-                  <div>AUTEUR :&#160; <a href="index.py" target="_blank">Oswald J~Chris</a></div>
+                  <!-- author ( Please! Do not delete it. You are awesome! :) -->
+                  <div>AUTEUR :&#160; <a href="https://valdo-tech.com/our_team/oswald-jchris/" target="_blank">Oswald J~Chris</a></div>
                 </footer>
                 <!-- footer end -->
 
@@ -1117,49 +1109,49 @@ html = """
                 <!-- menu list -->
                 <ul class="main-menu">
                   <!-- menu item -->
-                  <li class="menu-item current-menu-item"><a href="/index.py">Accueil</a></li>
+                  <li class="menu-item current-menu-item"><a href="/portfolio_de_oswald_agbodj.html">Accueil</a></li>
                   <!-- menu item -->
                   <li class="menu-item menu-item-has-children">
                     <a href="#.">Portfolio</a>
                     <!-- sub menu -->
                     <ul class="sub-menu">
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/project_1.py">Projet 1</a></li>
+                      <li class="menu-item"><a href="/portfolio-single-2.html">Single project 2</a></li>
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/all_projects.py">Les projets réalisés</a></li>
+                      <li class="menu-item"><a href="/portfolio-2-col-masonry.html">2 column masonry</a></li>
+                      
                     </ul>
                     <!-- sub menu end -->
                   </li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/history.py">Mon Parcours Professionnel</a></li>
+                  <li class="menu-item"><a href="/history.html">Mon Parcours Professionnel</a></li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="/contact.py">Contact</a></li>
+                  <li class="menu-item"><a href="/contact.html">Contact</a></li>
                   <!-- menu item -->
                   <li class="menu-item menu-item-has-children">
                     <a href="#.">Blog</a>
                     <!-- sub menu -->
                     <ul class="sub-menu">
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/blog_1.py">Nouvelle annonce</a></li>
+                      <li class="menu-item"><a href="/blog_1.html">Nouvelle annonce</a></li>
                       <!-- lvl 2 nav link -->
-                      <li class="menu-item"><a href="/all_blog.py">Les annonces</a></li>
+                      <li class="menu-item"><a href="/all_blog.html">Les annonces</a></li>
                     </ul>
                     <!-- sub menu end -->
                   </li>
                   <!-- menu item -->
-                  <li class="menu-item"><a href="" target="_blank"></a></li>
+                  <li class="menu-item"><a href="onepage.html" target="_blank">Onepage</a></li>
                 </ul>
                 <!-- menu list end -->
               </nav>
               <!-- menu end -->
 
               <!-- language change -->
-              
               <ul class="art-language-change">
                 <!-- language item -->
-                <li><a href="javascript:void()" onclick="window.location.hash='#googtrans(en)';location.reload();">EN</a></li>
+                <li><a href="#.">EN</a></li>
                 <!-- language item -->
-                <li class="art-active-lang"><a href="javascript:void()" onclick="window.location.hash='#googtrans(fr)';location.reload();">Fr</a></li>
+                <li class="art-active-lang"><a href="#.">FR</a></li>
               </ul>
               <!-- language change end -->
 
@@ -1194,10 +1186,6 @@ html = """
   </div>
   <!-- app end -->
 
-  
-
-  
-
   <!-- jquery js -->
   <script src="js/plugins/jquery.min.js"></script>
   <!-- anime js -->
@@ -1222,20 +1210,6 @@ html = """
   <!-- main js -->
   <script src="js/main.js"></script>
 
-  <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-  }
-  </script>
-
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 
 </html>
-
-
-"""
-
-print(html)
-

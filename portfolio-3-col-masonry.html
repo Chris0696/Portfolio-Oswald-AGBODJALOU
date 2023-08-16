@@ -1,11 +1,3 @@
-# coding:utf-8
-import cgi
-
-print("content-type: text/html; charset=utf-8\n")
-
-
-html = """
-
 <!doctype html>
 <html lang="zxx">
 
@@ -330,7 +322,7 @@ html = """
                     <!-- grid item -->
                     <div class="art-grid-item webTemplates">
                       <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/1.jpg" class="art-a art-portfolio-item-frame art-square">
+                      <a data-fancybox="gallery" href="img/works/original-size/1.jpg" class="art-a art-portfolio-item-frame art-horizontal">
                         <!-- img -->
                         <img src="img/works/thumbnail/1.jpg" alt="item">
                         <!-- zoom icon -->
@@ -341,7 +333,6 @@ html = """
                       <div class="art-item-description">
                         <!-- title -->
                         <h5 class="mb-15">Project title</h5>
-                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                         <!-- button -->
                         <a href="/portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
@@ -353,7 +344,7 @@ html = """
                     <!-- grid item -->
                     <div class="art-grid-item logos">
                       <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/2.jpg" class="art-a art-portfolio-item-frame art-square">
+                      <a data-fancybox="gallery" href="img/works/original-size/2.jpg" class="art-a art-portfolio-item-frame art-vertical">
                         <!-- img -->
                         <img src="img/works/thumbnail/2.jpg" alt="item">
                         <!-- zoom icon -->
@@ -399,7 +390,7 @@ html = """
                     <!-- grid item -->
                     <div class="art-grid-item ui">
                       <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/4.jpg" class="art-a art-portfolio-item-frame art-square">
+                      <a data-fancybox="gallery" href="img/works/original-size/4.jpg" class="art-a art-portfolio-item-frame art-vertical">
                         <!-- img -->
                         <img src="img/works/thumbnail/4.jpg" alt="item">
                         <!-- zoom icon -->
@@ -445,7 +436,7 @@ html = """
                     <!-- grid item -->
                     <div class="art-grid-item logos">
                       <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/6.jpg" class="art-a art-portfolio-item-frame art-square">
+                      <a data-fancybox="gallery" href="img/works/original-size/6.jpg" class="art-a art-portfolio-item-frame art-vertical">
                         <!-- img -->
                         <img src="img/works/thumbnail/6.jpg" alt="item">
                         <!-- zoom icon -->
@@ -491,7 +482,7 @@ html = """
                     <!-- grid item -->
                     <div class="art-grid-item ui">
                       <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/8.jpg" class="art-a art-portfolio-item-frame art-square">
+                      <a data-fancybox="gallery" href="img/works/original-size/8.jpg" class="art-a art-portfolio-item-frame art-horizontal">
                         <!-- img -->
                         <img src="img/works/thumbnail/8.jpg" alt="item">
                         <!-- zoom icon -->
@@ -502,7 +493,6 @@ html = """
                       <div class="art-item-description">
                         <!-- title -->
                         <h5 class="mb-15">Project title</h5>
-                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                         <!-- button -->
                         <a href="/portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
@@ -514,7 +504,7 @@ html = """
                     <!-- grid item -->
                     <div class="art-grid-item webTemplates">
                       <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/9.jpg" class="art-a art-portfolio-item-frame art-square">
+                      <a data-fancybox="gallery" href="img/works/original-size/9.jpg" class="art-a art-portfolio-item-frame art-horizontal">
                         <!-- img -->
                         <img src="img/works/thumbnail/9.jpg" alt="item">
                         <!-- zoom icon -->
@@ -525,7 +515,6 @@ html = """
                       <div class="art-item-description">
                         <!-- title -->
                         <h5 class="mb-15">Project title</h5>
-                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                         <!-- button -->
                         <a href="/portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
@@ -537,7 +526,7 @@ html = """
                     <!-- grid item -->
                     <div class="art-grid-item logos">
                       <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/10.jpg" class="art-a art-portfolio-item-frame art-square">
+                      <a data-fancybox="gallery" href="img/works/original-size/10.jpg" class="art-a art-portfolio-item-frame art-horizontal">
                         <!-- img -->
                         <img src="img/works/thumbnail/10.jpg" alt="item">
                         <!-- zoom icon -->
@@ -548,7 +537,6 @@ html = """
                       <div class="art-item-description">
                         <!-- title -->
                         <h5 class="mb-15">Project title</h5>
-                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                         <!-- button -->
                         <a href="/portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
@@ -560,7 +548,7 @@ html = """
                     <!-- grid item -->
                     <div class="art-grid-item drawings">
                       <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/11.jpg" class="art-a art-portfolio-item-frame art-square">
+                      <a data-fancybox="gallery" href="img/works/original-size/11.jpg" class="art-a art-portfolio-item-frame art-horizontal">
                         <!-- img -->
                         <img src="img/works/thumbnail/11.jpg" alt="item">
                         <!-- zoom icon -->
@@ -571,30 +559,6 @@ html = """
                       <div class="art-item-description">
                         <!-- title -->
                         <h5 class="mb-15">Project title</h5>
-                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
-                        <!-- button -->
-                        <a href="/portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
-                      </div>
-                      <!-- description end -->
-
-                    </div>
-                    <!-- grid item end -->
-
-                    <!-- grid item -->
-                    <div class="art-grid-item drawings">
-                      <!-- grid item frame -->
-                      <a data-fancybox="gallery" href="img/works/original-size/13.jpg" class="art-a art-portfolio-item-frame art-square">
-                        <!-- img -->
-                        <img src="img/works/thumbnail/13.jpg" alt="item">
-                        <!-- zoom icon -->
-                        <span class="art-item-hover"><i class="fas fa-expand"></i></span>
-                      </a>
-                      <!-- grid item frame end -->
-                      <!-- description -->
-                      <div class="art-item-description">
-                        <!-- title -->
-                        <h5 class="mb-15">Project title</h5>
-                        <div class="mb-15">Sit amet, consectetur adipisicing elit. Quas, architecto.</div>
                         <!-- button -->
                         <a href="/portfolio-single.html" class="art-link art-color-link art-w-chevron">Read more</a>
                       </div>
@@ -753,9 +717,9 @@ html = """
               <!-- language change -->
               <ul class="art-language-change">
                 <!-- language item -->
-                <li><a href="javascript:void()" onclick="window.location.hash='#googtrans(en)';location.reload();">EN</a></li>
+                <li><a href="#.">FR</a></li>
                 <!-- language item -->
-                <li class="art-active-lang"><a href="javascript:void()" onclick="window.location.hash='#googtrans(fr)';location.reload();">Fr</a></li>
+                <li class="art-active-lang"><a href="#.">EN</a></li>
               </ul>
               <!-- language change end -->
 
@@ -814,19 +778,6 @@ html = """
   <!-- main js -->
   <script src="js/main.js"></script>
 
-  <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-  }
-  </script>
-
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 
 </html>
-
-
-"""
-
-print(html)
