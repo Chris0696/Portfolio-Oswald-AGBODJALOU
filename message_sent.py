@@ -416,7 +416,7 @@ try:
         Fullname = form.getvalue("Fullname")
         email = form.getvalue("email")
         message = form.getvalue("message")
-        print(f"<p>Bonjour <span>{Fullname}</span>, <p>Merci de m'avoir soumit votre message. Je vous répondrai si possible dans un bref délais via votre mail <span>{email}<span>. </p><p><b><h6><u>Votre demande</u></b> :</h6><br>{message} !</p>")
+        print(f"<p>Bonjour Mr / Mme <span>{Fullname}</span>, <p>Merci de m'avoir soumit votre message. Je vous répondrai si possible dans un bref délais via votre mail <span>{email}<span>. </p><p><b><h6><u>Votre demande</u></b> :</h6><br>{message} !</p>")
     else:
         raise Exception("Pseudo non transmit")
 except:
