@@ -404,7 +404,7 @@ html = """
                     <div class="art-a art-card">
 
                       <!-- contact form -->
-                      <form class="art-contact-form" method="post" action="result.py">
+                      <form class="art-contact-form" method="post" action="message_sent.py">
 
                         <!-- form field -->
                         <div class="art-form-field">
